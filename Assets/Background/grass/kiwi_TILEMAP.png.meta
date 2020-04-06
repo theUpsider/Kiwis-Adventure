@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: d96094be113dfbf4aa511e240c862ec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7322629602039349688
+    second: kiwi_TILEMAP_0
+  - first:
+      213: 8586931894886746739
+    second: kiwi_TILEMAP_1
+  - first:
+      213: -8219331137411036973
+    second: kiwi_TILEMAP_2
+  - first:
+      213: 7163471408015245461
+    second: kiwi_TILEMAP_3
+  - first:
+      213: -2970172518598918638
+    second: kiwi_TILEMAP_4
+  - first:
+      213: -1773979313112643315
+    second: kiwi_TILEMAP_0
+  - first:
+      213: -8202667309124173137
+    second: kiwi_TILEMAP_1
+  - first:
+      213: 4832815242449744720
+    second: kiwi_TILEMAP_2
+  - first:
+      213: -2042523898243367560
+    second: kiwi_TILEMAP_3
+  - first:
+      213: 6870774200557420883
+    second: kiwi_TILEMAP_5
+  - first:
+      213: 1972906809871008306
+    second: kiwi_TILEMAP_4
+  - first:
+      213: -8960183443058194394
+    second: kiwi_TILEMAP_5
+  - first:
+      213: -3641660170683205502
+    second: kiwi_TILEMAP_6
+  - first:
+      213: -6002534965979922298
+    second: kiwi_TILEMAP_7
+  - first:
+      213: 3628771401183223532
+    second: kiwi_TILEMAP_8
+  - first:
+      213: -2828789718764329259
+    second: kiwi_TILEMAP_9
+  - first:
+      213: -8979052883968024869
+    second: kiwi_TILEMAP_10
+  - first:
+      213: -9142842140100850825
+    second: kiwi_TILEMAP_11
+  - first:
+      213: 2923183252676472041
+    second: kiwi_TILEMAP_6
+  - first:
+      213: -8088350367963059588
+    second: kiwi_TILEMAP_7
+  - first:
+      213: -214792291706944819
+    second: kiwi_TILEMAP_8
+  - first:
+      213: -195621141398873453
+    second: kiwi_TILEMAP_9
+  - first:
+      213: 8490988191684463389
+    second: kiwi_TILEMAP_10
+  - first:
+      213: 1024834693063626524
+    second: kiwi_TILEMAP_11
+  - first:
+      213: -8274868142904555266
+    second: kiwi_TILEMAP_12
+  - first:
+      213: -6975603689396518330
+    second: kiwi_TILEMAP_12
+  - first:
+      213: 7128875586361980630
+    second: kiwi_TILEMAP_13
+  - first:
+      213: -2820272792619612708
+    second: kiwi_TILEMAP_14
+  - first:
+      213: 228224419027296654
+    second: kiwi_TILEMAP_13
+  - first:
+      213: -5213525503769323888
+    second: kiwi_TILEMAP_14
+  - first:
+      213: -550730125678759967
+    second: kiwi_TILEMAP_15
+  - first:
+      213: 2621394482100841072
+    second: kiwi_TILEMAP_16
+  - first:
+      213: 7476093716669213317
+    second: kiwi_TILEMAP_17
+  - first:
+      213: -6450692773775254967
+    second: kiwi_TILEMAP_18
+  - first:
+      213: -8987495063779196621
+    second: kiwi_TILEMAP_19
+  - first:
+      213: 5395331070704732134
+    second: kiwi_TILEMAP_20
+  - first:
+      213: 6327220318473051924
+    second: kiwi_TILEMAP_15
+  - first:
+      213: 2954344771848935935
+    second: kiwi_TILEMAP_16
+  - first:
+      213: -1048165494609350379
+    second: kiwi_TILEMAP_17
+  - first:
+      213: 5116567220595789330
+    second: kiwi_TILEMAP_18
+  - first:
+      213: -1911045452739705648
+    second: kiwi_TILEMAP_19
+  - first:
+      213: -2663330023738224588
+    second: kiwi_TILEMAP_20
+  - first:
+      213: -4199637599285347518
+    second: kiwi_TILEMAP_21
+  - first:
+      213: -2879403645150458872
+    second: kiwi_TILEMAP_22
+  - first:
+      213: -5794859529559361337
+    second: kiwi_TILEMAP_23
+  - first:
+      213: -4739086909500493822
+    second: kiwi_TILEMAP_21
+  - first:
+      213: 4293308565388697911
+    second: kiwi_TILEMAP_22
+  - first:
+      213: -9214189218434467476
+    second: kiwi_TILEMAP_23
+  - first:
+      213: 2111146882645116328
+    second: kiwi_TILEMAP_24
+  - first:
+      213: 2481631625841749420
+    second: kiwi_TILEMAP_25
+  - first:
+      213: -8073456620631293981
+    second: kiwi_TILEMAP_26
+  - first:
+      213: 7871169938986710002
+    second: kiwi_TILEMAP_27
+  - first:
+      213: -8728701522991704236
+    second: kiwi_TILEMAP_28
+  - first:
+      213: -7686708438673076592
+    second: kiwi_TILEMAP_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d098703b63f8167e0800000000000000
+      internalID: -1773979313112643315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2c1fcba854a2e80800000000000000
+      internalID: -8202667309124173137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0537f4f8bdb911340800000000000000
+      internalID: 4832815242449744720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d35f7165f77a3e0800000000000000
+      internalID: -2042523898243367560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2328f496a4c216b10800000000000000
+      internalID: 1972906809871008306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6280e22b1a807a380800000000000000
+      internalID: -8960183443058194394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece62d3eab319820800000000000000
+      internalID: 2923183252676472041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a69aab13860cf80800000000000000
+      internalID: -8088350367963059588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2c0587c87e40df0800000000000000
+      internalID: -214792291706944819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a1d5cbb93094df0800000000000000
+      internalID: -195621141398873453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b836de5cc06d570800000000000000
+      internalID: 8490988191684463389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fcd8939b1f83e00800000000000000
+      internalID: 1024834693063626524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642cd9f176da13f90800000000000000
+      internalID: -6975603689396518330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81213166e0da2300800000000000000
+      internalID: 228224419027296654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096d3604d26d5a7b0800000000000000
+      internalID: -5213525503769323888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f583a4b5dcec750800000000000000
+      internalID: 6327220318473051924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9961ecae0fff820800000000000000
+      internalID: 2954344771848935935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511fcfb390b2471f0800000000000000
+      internalID: -1048165494609350379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e050547c2b10740800000000000000
+      internalID: 5116567220595789330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d403df294a9a75e0800000000000000
+      internalID: -1911045452739705648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430537f4473f90bd0800000000000000
+      internalID: -2663330023738224588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200f48780916b3eb0800000000000000
+      internalID: -4739086909500493822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731a22fa465e49b30800000000000000
+      internalID: 4293308565388697911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69baf589bf902080800000000000000
+      internalID: -9214189218434467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a54cb887ec4c4d10800000000000000
+      internalID: 2111146882645116328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad2ca1c0d6807220800000000000000
+      internalID: 2481631625841749420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3effeb18af155ff80800000000000000
+      internalID: -8073456620631293981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f339043b530c3d60800000000000000
+      internalID: 7871169938986710002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4571ba3263c6dd680800000000000000
+      internalID: -8728701522991704236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwi_TILEMAP_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ec4e4a663535590800000000000000
+      internalID: -7686708438673076592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

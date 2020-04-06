@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: c5fa50c7e68e99740a6d88307c6dd25a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5584483086823254775
+    second: Store_Tilemap_0
+  - first:
+      213: 5723002109727177807
+    second: Store_Tilemap_1
+  - first:
+      213: 9088426196653910352
+    second: Store_Tilemap_2
+  - first:
+      213: 617224410523522255
+    second: Store_Tilemap_3
+  - first:
+      213: -8055430840028461835
+    second: Store_Tilemap_4
+  - first:
+      213: 2307630464383154345
+    second: Store_Tilemap_5
+  - first:
+      213: 5923502585532240549
+    second: Store_Tilemap_0
+  - first:
+      213: 6166201164716614663
+    second: Store_Tilemap_1
+  - first:
+      213: -7064152625895524836
+    second: Store_Tilemap_2
+  - first:
+      213: 8590893827535107064
+    second: Store_Tilemap_3
+  - first:
+      213: 7127644766447480475
+    second: Store_Tilemap_4
+  - first:
+      213: -2296256608847431108
+    second: Store_Tilemap_5
+  - first:
+      213: 4107859430039188250
+    second: Store_Tilemap_6
+  - first:
+      213: 4297205060472206641
+    second: Store_Tilemap_7
+  - first:
+      213: 2657542082656173267
+    second: Store_Tilemap_8
+  - first:
+      213: 5720078854696122979
+    second: Store_Tilemap_9
+  - first:
+      213: -366913837512968333
+    second: Store_Tilemap_10
+  - first:
+      213: 7748629741779959792
+    second: Store_Tilemap_11
+  - first:
+      213: 1083269564476652665
+    second: Store_Tilemap_12
+  - first:
+      213: -1056865213142777116
+    second: Store_Tilemap_13
+  - first:
+      213: 6667679096510870998
+    second: Store_Tilemap_6
+  - first:
+      213: 4981998850203451608
+    second: Store_Tilemap_7
+  - first:
+      213: 3479679599900004025
+    second: Store_Tilemap_8
+  - first:
+      213: -1428970863970283479
+    second: Store_Tilemap_9
+  - first:
+      213: 1346753754543908161
+    second: Store_Tilemap_10
+  - first:
+      213: -2135386510788331886
+    second: Store_Tilemap_11
+  - first:
+      213: 1413231526329602175
+    second: Store_Tilemap_12
+  - first:
+      213: -5804241395416400263
+    second: Store_Tilemap_13
+  - first:
+      213: 2575813755122408144
+    second: Store_Tilemap_14
+  - first:
+      213: -3639558544382333591
+    second: Store_Tilemap_15
+  - first:
+      213: 3640801214452505439
+    second: Store_Tilemap_16
+  - first:
+      213: -5027879120051332519
+    second: Store_Tilemap_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Store_Tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2d1cca732843250800000000000000
+      internalID: 5923502585532240549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a8841a4fb29550800000000000000
+      internalID: 6166201164716614663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ba5e3d9617fd90800000000000000
+      internalID: -7064152625895524836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3735d6b6cf83770800000000000000
+      internalID: 8590893827535107064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e2645b62b7ae260800000000000000
+      internalID: 7127644766447480475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a7184c7ce0220e0800000000000000
+      internalID: -2296256608847431108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5f3d7bfca588c50800000000000000
+      internalID: 6667679096510870998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d008c9fe8d932540800000000000000
+      internalID: 4981998850203451608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be8634f82e4a4030800000000000000
+      internalID: 3479679599900004025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201baaf1964b2ce0800000000000000
+      internalID: -1428970863970283479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14563838761a0b210800000000000000
+      internalID: 1346753754543908161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296fc4e38459d52e0800000000000000
+      internalID: -2135386510788331886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f705248e59ecc9310800000000000000
+      internalID: 1413231526329602175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e769bf331337fa0800000000000000
+      internalID: -5804241395416400263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dad2a986f02fb320800000000000000
+      internalID: 2575813755122408144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d6ade79c0bd7dc0800000000000000
+      internalID: -3639558544382333591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b904d2a69b68230800000000000000
+      internalID: 3640801214452505439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_Tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9cb34492693ab0800000000000000
+      internalID: -5027879120051332519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
