@@ -5,7 +5,7 @@ using UnityEngine;
 public class Level : MonoBehaviour
 {
 
-    public static Queue<Transform> checkpoints = new Queue<Transform>();
+    public static Vector2 checkpoint;
 
     // Start is called before the first frame update
     void Start()

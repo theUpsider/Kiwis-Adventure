@@ -23,8 +23,8 @@ public class Checkpoint : MonoBehaviour
         if (col.gameObject.Equals(player))
         {
             Debug.Log("worked checkpoint");
-            if (!Level.checkpoints.Contains(this.transform))
-                Level.checkpoints.Enqueue(this.transform);
+            if (!Level.checkpoint.Equals(this.transform.position))
+                Level.checkpoint =this.transform.position;
             collider.enabled = false;
 
         }

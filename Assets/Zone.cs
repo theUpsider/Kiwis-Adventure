@@ -18,7 +18,7 @@ public class Zone : MonoBehaviour
         {
             if (isWater)
             {
-                player.transform.Translate(Level.checkpoints.Peek().position - player.transform.position);
+                player.transform.Translate(new Vector3(Level.checkpoint.x, Level.checkpoint.y, 0) - player.transform.position);
                 Debug.Log("teleported");
             }
             else if (isLava)
