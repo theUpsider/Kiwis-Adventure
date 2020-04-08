@@ -2,26 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
 
-public class DialogueZone : MonoBehaviour, IManager
+public class Door : MonoBehaviour, IManager
 {
-    public DialogueBubble dialoguebubble;
+    public GameObject destination;
 
     public void handlePlayerInput(GameObject Player)
     {
-        Debug.Log("Display next sentance handled.");
-        FindObjectOfType<DialogManager>().DisplayNextSentence();
+        Debug.Log(this + " handle p input to: "+ destination.transform.position);
+        //Teleport player to destination
+        if (destination != null)
+            Player.transform.position = destination.transform.position;
     }
+
     public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
-        {
             Level.subsribe(this);
-            dialoguebubble.objectToShow.SetActive(true); //activate dialogue
-            dialoguebubble.dialoguetrigger.TriggerDialogue(dialoguebubble.nameText, dialoguebubble.dialogueText);
-        }
         Debug.Log(this + " subsribed.");
     }
     public void OnTriggerExit2D(Collider2D col)
@@ -30,6 +27,4 @@ public class DialogueZone : MonoBehaviour, IManager
             Level.unsubscribe(this);
         Debug.Log(this + " unsubsribed.");
     }
-
-
 }

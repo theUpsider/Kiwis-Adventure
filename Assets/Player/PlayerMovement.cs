@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
-    public DialogManager dialogmanager;
     public Animator animator;
 
     float horizontalMove = 0;
@@ -47,7 +46,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonUp("Enter"))
         {
             Debug.Log("Enter");
-            dialogmanager.DisplayNextSentence();
+            
+            Level.Notify(); //Notify subsribers for interaction input
         }
 
         if (Input.GetButtonDown("Crouch"))

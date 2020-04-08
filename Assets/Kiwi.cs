@@ -12,11 +12,13 @@ public class Kiwi : MonoBehaviour
         {
             //make particle
             Inventory playerinv;
-            if(Player.TryGetComponent<Inventory>(out playerinv))
+            if (Player.TryGetComponent<Inventory>(out playerinv))
             {
                 playerinv.AddKiwis(1);
-                Debug.Log("Player Kiwis: "+playerinv.GetKiwis());
+                Debug.Log("Player Kiwis: " + playerinv.GetKiwis());
             }
+            else
+                Debug.Log("No inv found on player");
             toHide.SetActive(false);
         }
 
