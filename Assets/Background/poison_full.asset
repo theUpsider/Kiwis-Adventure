@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c97a1f71fb044888cbf89cd5bd9ba, type: 3}
+  m_Name: poison_full
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: e41abc49ed5d38849a26d157194378ae, type: 3}
+  - {fileID: 21300000, guid: 8d8e3abe1b8bfda46a93872d81e43bcc, type: 3}
+  - {fileID: 21300000, guid: 0ec654687162f0d49a465d1e85707b68, type: 3}
+  m_MinSpeed: 2
+  m_MaxSpeed: 2
+  m_AnimationStartTime: 0
+  m_TileColliderType: 1
