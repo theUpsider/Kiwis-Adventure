@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InteractionManager : MonoBehaviour, IManager
 {
-    public void handlePlayerInput(GameObject Player)
+    public void handlePlayerInput(GameObject player, string message)
     {
         throw new NotImplementedException();
     }

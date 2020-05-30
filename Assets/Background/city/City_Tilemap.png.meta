@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 9c41a2518739ee748b969fe54bd7815f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6559390771136248521
+    second: City_Tilemap_0
+  - first:
+      213: 72848875667497200
+    second: City_Tilemap_1
+  - first:
+      213: -3061475448872105601
+    second: City_Tilemap_2
+  - first:
+      213: -1977590740183794801
+    second: City_Tilemap_3
+  - first:
+      213: -4340064838436495586
+    second: City_Tilemap_4
+  - first:
+      213: 6004114517713723560
+    second: City_Tilemap_5
+  - first:
+      213: 6006993077454970370
+    second: City_Tilemap_6
+  - first:
+      213: 1427069882654579164
+    second: City_Tilemap_7
+  - first:
+      213: 3947406184328059986
+    second: City_Tilemap_8
+  - first:
+      213: -7112251864450548036
+    second: City_Tilemap_9
+  - first:
+      213: -7439781236490148994
+    second: City_Tilemap_10
+  - first:
+      213: 3923533281304950228
+    second: City_Tilemap_11
+  - first:
+      213: -6986305082326924353
+    second: City_Tilemap_12
+  - first:
+      213: -529922560360164526
+    second: City_Tilemap_13
+  - first:
+      213: -7355915298461643140
+    second: City_Tilemap_14
+  - first:
+      213: 4690038276229254416
+    second: City_Tilemap_15
+  - first:
+      213: -9043452095178491284
+    second: City_Tilemap_16
+  - first:
+      213: 8911972741077972102
+    second: City_Tilemap_17
+  - first:
+      213: -6051209311461222921
+    second: City_Tilemap_18
+  - first:
+      213: 862010015975202283
+    second: City_Tilemap_19
+  - first:
+      213: 5219371882587807702
+    second: City_Tilemap_20
+  - first:
+      213: 2466507724143272611
+    second: City_Tilemap_21
+  - first:
+      213: -5300724273360111087
+    second: City_Tilemap_22
+  - first:
+      213: -6644685281008436727
+    second: City_Tilemap_23
+  - first:
+      213: 5014729881065533497
+    second: City_Tilemap_24
+  - first:
+      213: -6439427510056197367
+    second: City_Tilemap_25
+  - first:
+      213: 8206237545179527108
+    second: City_Tilemap_0
+  - first:
+      213: -8983594551721329158
+    second: City_Tilemap_1
+  - first:
+      213: -8876060982320197201
+    second: City_Tilemap_2
+  - first:
+      213: 990877366439457008
+    second: City_Tilemap_3
+  - first:
+      213: -2316834975975816968
+    second: City_Tilemap_4
+  - first:
+      213: -3043681632806504324
+    second: City_Tilemap_5
+  - first:
+      213: 7727821793864481869
+    second: City_Tilemap_6
+  - first:
+      213: 6662841678475835965
+    second: City_Tilemap_7
+  - first:
+      213: 1020303989908341862
+    second: City_Tilemap_8
+  - first:
+      213: 6319917210996428184
+    second: City_Tilemap_9
+  - first:
+      213: -3705298767593356748
+    second: City_Tilemap_10
+  - first:
+      213: 2051097290274324786
+    second: City_Tilemap_11
+  - first:
+      213: -8199555483650525013
+    second: City_Tilemap_12
+  - first:
+      213: -4336723456628070558
+    second: City_Tilemap_13
+  - first:
+      213: 756301901975271454
+    second: City_Tilemap_14
+  - first:
+      213: 3431893780249866710
+    second: City_Tilemap_15
+  - first:
+      213: 7252351504908120584
+    second: City_Tilemap_16
+  - first:
+      213: -8889904083522388178
+    second: City_Tilemap_17
+  - first:
+      213: 4038946125771065766
+    second: City_Tilemap_18
+  - first:
+      213: -5875048993994764692
+    second: City_Tilemap_19
+  - first:
+      213: -7463044727912087408
+    second: City_Tilemap_20
+  - first:
+      213: 6134841157664301248
+    second: City_Tilemap_21
+  - first:
+      213: 8668265522409745520
+    second: City_Tilemap_22
+  - first:
+      213: 5856897993917407720
+    second: City_Tilemap_23
+  - first:
+      213: 2423705709513703498
+    second: City_Tilemap_24
+  - first:
+      213: -8994421812197977467
+    second: City_Tilemap_25
+  - first:
+      213: 7283002859359269005
+    second: City_Tilemap_26
+  - first:
+      213: -5259632720028707352
+    second: City_Tilemap_27
+  - first:
+      213: -1034721423486991436
+    second: City_Tilemap_28
+  - first:
+      213: -2573573375736535588
+    second: City_Tilemap_29
+  - first:
+      213: 182836804379241239
+    second: City_Tilemap_30
+  - first:
+      213: -2891602836340102438
+    second: City_Tilemap_31
+  - first:
+      213: 8945646721056639298
+    second: City_Tilemap_32
+  - first:
+      213: 5660814828664700886
+    second: City_Tilemap_33
+  - first:
+      213: 6768335062182791402
+    second: City_Tilemap_34
+  - first:
+      213: -5300285487949953143
+    second: City_Tilemap_35
+  - first:
+      213: 2208464070853353621
+    second: City_Tilemap_36
+  - first:
+      213: -7709468519971129936
+    second: City_Tilemap_37
+  - first:
+      213: -7183004824580440853
+    second: City_Tilemap_38
+  - first:
+      213: 6766445758693872680
+    second: City_Tilemap_39
+  - first:
+      213: -6519231531194109333
+    second: City_Tilemap_40
+  - first:
+      213: 2796044849746371566
+    second: City_Tilemap_41
+  - first:
+      213: -4687431978380514437
+    second: City_Tilemap_42
+  - first:
+      213: 4210809267261103752
+    second: City_Tilemap_43
+  - first:
+      213: -6082422349743887834
+    second: City_Tilemap_44
+  - first:
+      213: 7401640463220219823
+    second: City_Tilemap_26
+  - first:
+      213: 360786942916139367
+    second: City_Tilemap_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: City_Tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c736ee919962e170800000000000000
+      internalID: 8206237545179527108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf3823a5cd35380800000000000000
+      internalID: -8983594551721329158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa199106095e1d480800000000000000
+      internalID: -8876060982320197201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0399207bd40cd00800000000000000
+      internalID: 990877366439457008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0c2cd4dd2f8dfd0800000000000000
+      internalID: -2316834975975816968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78ff2b5eaba2c5d0800000000000000
+      internalID: -3043681632806504324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c70de4afcbe3b60800000000000000
+      internalID: 7727821793864481869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3830943b277c50800000000000000
+      internalID: 6662841678475835965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6648661b219d82e00800000000000000
+      internalID: 1020303989908341862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dc153183bd4b750800000000000000
+      internalID: 6319917210996428184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432c7e20762249cc0800000000000000
+      internalID: -3705298767593356748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231419a4e16f67c10800000000000000
+      internalID: 2051097290274324786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba877e01bb3553e80800000000000000
+      internalID: -8199555483650525013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267649e3efcd0d3c0800000000000000
+      internalID: -4336723456628070558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e183032a29cee7a00800000000000000
+      internalID: 756301901975271454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d17aaec53980af20800000000000000
+      internalID: 3431893780249866710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8027154e44785a460800000000000000
+      internalID: 7252351504908120584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7a563657b0a480800000000000000
+      internalID: -8889904083522388178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a946852a183d0830800000000000000
+      internalID: 4038946125771065766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0dea3112a77ea0800000000000000
+      internalID: -5875048993994764692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090c2f16c50fd6890800000000000000
+      internalID: -7463044727912087408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0e6047785532550800000000000000
+      internalID: 6134841157664301248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07caff1f09ddb4870800000000000000
+      internalID: 8668265522409745520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1252db1b1e74150800000000000000
+      internalID: 5856897993917407720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4086af508bb2a120800000000000000
+      internalID: 2423705709513703498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5821aeb24056d2380800000000000000
+      internalID: -8994421812197977467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf166529c8e7b660800000000000000
+      internalID: 7401640463220219823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City_Tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699d1420d5c10500800000000000000
+      internalID: 360786942916139367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

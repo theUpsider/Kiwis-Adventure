@@ -9,10 +9,10 @@ public class Level : MonoBehaviour
     public static GameObject Player;
     public static List<IManager> playerInteractionSubscriber = new List<IManager>();
 
-    public static void Notify()
+    public static void Notify(string message)
     {
         foreach (var sub in playerInteractionSubscriber)
-            sub.handlePlayerInput(Player);
+            sub.handlePlayerInput(Player, message);
     }
 
     public static void subsribe(IManager sub)

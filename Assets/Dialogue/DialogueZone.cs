@@ -9,11 +9,16 @@ public class DialogueZone : MonoBehaviour, IManager
 {
     public DialogueBubble dialoguebubble;
 
-    public void handlePlayerInput(GameObject Player)
+    public void handlePlayerInput(GameObject Player, string message)
     {
+        if (message == "Enter")
+        {
         Debug.Log("Display next sentance handled.");
         FindObjectOfType<DialogManager>().DisplayNextSentence();
+        }
     }
+
+
     public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))

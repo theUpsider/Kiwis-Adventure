@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IManager
 {
-    void handlePlayerInput(GameObject Player);
+    void handlePlayerInput(GameObject player, string message);
 }

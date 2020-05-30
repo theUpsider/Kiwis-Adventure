@@ -47,7 +47,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Enter");
             
-            Level.Notify(); //Notify subsribers for interaction input
+            Level.Notify("Enter"); //Notify subsribers for interaction input
+        }
+
+        //Interact with dialogue
+        if (Input.GetButtonUp("Fire1"))
+        {
+            Level.Notify("Fire1");
         }
 
         if (Input.GetButtonDown("Crouch"))

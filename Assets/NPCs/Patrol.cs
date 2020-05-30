@@ -30,7 +30,6 @@ public class Patrol : MonoBehaviour
             return; //ignore self
         if (!groundInfo.collider || wallInfo.collider)
         {
-            Debug.Log("flip. ground: " + groundInfo.collider + " wall: " + wallInfo.collider);
             Flip();
         }
     }
