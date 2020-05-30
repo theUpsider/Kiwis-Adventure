@@ -9,7 +9,7 @@ public class Patrol : MonoBehaviour
     public float distance;
     [FormerlySerializedAs("Own Collider (optional)")]
     public Collider2D ownCollider;
-    private bool movingRight = true;
+    public bool movingRight = true;
     public Transform envDetection;
     [FormerlySerializedAs("Layer Mask")]
     [SerializeField]
