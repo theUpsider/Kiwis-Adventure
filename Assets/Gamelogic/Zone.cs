@@ -6,7 +6,6 @@ public class Zone : MonoBehaviour
 {
     public bool isWater;
     public bool isLava;
-    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,23 +13,19 @@ public class Zone : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.Equals(player))
+        if (col.gameObject.Equals(Level.Player))
         {
             if (isWater)
             {
-                player.transform.Translate(new Vector3(Level.checkpoint.x, Level.checkpoint.y, 0) - player.transform.position);
+                Level.Player.transform.Translate(new Vector3(Level.checkpoint.x, Level.checkpoint.y, 0) - Level.Player.transform.position);
                 Debug.Log("teleported");
             }
             else if (isLava)
             {
-                player.transform.Translate(GameObject.FindWithTag("Respawn").transform.position - player.transform.position);
+                Level.Player.transform.Translate(GameObject.FindWithTag("Respawn").transform.position - Level.Player.transform.position);
 
             }
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 }
