@@ -24,7 +24,7 @@ public class Shoot : MonoBehaviour
         {
             nextActionTime += period;
             // execute block of code here
-            Instantiate(BulletPrefab, BulletStartPos.position,BulletStartPos.rotation);
+            Instantiate(BulletPrefab, BulletStartPos.position, Quaternion.AngleAxis(GetComponent<SpriteRenderer>().flipX ? 180 : 0,Vector3.down));
         }
     }
 }

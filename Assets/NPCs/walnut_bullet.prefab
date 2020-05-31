@@ -196,5 +196,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f42cf5bc33db924cb9863b2a3bd6622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isWater: 1
+  isWater: 0
   isLava: 0
