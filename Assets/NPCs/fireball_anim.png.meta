@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: d19da8b61ab328c48bdef8da92f175aa
+guid: dedd3fc70f9140a4b9a8157b1683ac9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6462114580647220295
-    second: walnut_anim_0
+      213: 2628916424569745786
+    second: fireball_anim_0
   - first:
-      213: -8277334436741160240
-    second: walnut_anim_1
+      213: 2154742489354511413
+    second: fireball_anim_1
   - first:
-      213: 8269667756277729363
-    second: walnut_anim_2
+      213: -1137667359459385403
+    second: fireball_anim_2
   - first:
-      213: -3452539934561916740
-    second: walnut_anim_3
+      213: -3727963324887615589
+    second: fireball_anim_3
   - first:
-      213: -8707556218021086797
-    second: walnut_anim_4
+      213: 1243211955607555517
+    second: fireball_anim_4
   - first:
-      213: 9186925363575211347
-    second: walnut_anim_5
+      213: -1723018327200052247
+    second: fireball_anim_5
   - first:
-      213: -5156987919150757845
-    second: walnut_anim_6
+      213: -5421061652929002062
+    second: fireball_anim_6
   - first:
-      213: -6394160097104704274
-    second: walnut_anim_7
+      213: -5308112231201119984
+    second: fireball_anim_7
   - first:
-      213: -1830258965110210020
-    second: walnut_anim_8
+      213: -4854147730731944300
+    second: fireball_anim_8
   - first:
-      213: -8330049247803877315
-    second: walnut_anim_9
+      213: -3622563172184750052
+    second: fireball_anim_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walnut_anim_0
+      name: fireball_anim_0
       rect:
         serializedVersion: 2
         x: 1
         y: 0
         width: 9
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 744995d29fa0ea950800000000000000
-      internalID: 6462114580647220295
+      spriteID: a717bae3f89cb7420800000000000000
+      internalID: 2628916424569745786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_1
+      name: fireball_anim_1
       rect:
         serializedVersion: 2
         x: 14
         y: 0
         width: 9
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d26fea5f20012d80800000000000000
-      internalID: -8277334436741160240
+      spriteID: 534aa64b0ee27ed10800000000000000
+      internalID: 2154742489354511413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_2
+      name: fireball_anim_2
       rect:
         serializedVersion: 2
         x: 27
         y: 0
         width: 9
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3588f6f7203c3c270800000000000000
-      internalID: 8269667756277729363
+      spriteID: 5cfddde60913630f0800000000000000
+      internalID: -1137667359459385403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_3
+      name: fireball_anim_3
       rect:
         serializedVersion: 2
         x: 40
         y: 0
-        width: 8
-        height: 8
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb8269bc83d1610d0800000000000000
-      internalID: -3452539934561916740
+      spriteID: b97b36c8b1d934cc0800000000000000
+      internalID: -3727963324887615589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_4
+      name: fireball_anim_4
       rect:
         serializedVersion: 2
         x: 53
-        y: 1
+        y: 0
         width: 9
-        height: 7
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b9fb1b11cb882780800000000000000
-      internalID: -8707556218021086797
+      spriteID: dbdc182dfa6c04110800000000000000
+      internalID: 1243211955607555517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_5
+      name: fireball_anim_5
       rect:
         serializedVersion: 2
         x: 66
         y: 0
         width: 9
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3554de991f38e7f70800000000000000
-      internalID: 9186925363575211347
+      spriteID: 9ebc0c9d5fb9618e0800000000000000
+      internalID: -1723018327200052247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_6
+      name: fireball_anim_6
       rect:
         serializedVersion: 2
         x: 79
         y: 0
-        width: 8
-        height: 8
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b28c9087fc2be68b0800000000000000
-      internalID: -5156987919150757845
+      spriteID: 2b5ccaf062584c4b0800000000000000
+      internalID: -5421061652929002062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_7
+      name: fireball_anim_7
       rect:
         serializedVersion: 2
-        x: 93
+        x: 92
         y: 0
-        width: 7
-        height: 8
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eecc817f4416347a0800000000000000
-      internalID: -6394160097104704274
+      spriteID: 011e95f9c0cc556b0800000000000000
+      internalID: -5308112231201119984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_8
+      name: fireball_anim_8
       rect:
         serializedVersion: 2
-        x: 106
+        x: 105
         y: 0
-        width: 7
-        height: 8
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c12c1a91b2d9996e0800000000000000
-      internalID: -1830258965110210020
+      spriteID: 49634767b5a92acb0800000000000000
+      internalID: -4854147730731944300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walnut_anim_9
+      name: fireball_anim_9
       rect:
         serializedVersion: 2
         x: 118
         y: 0
         width: 9
-        height: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38d327f758b56c80800000000000000
-      internalID: -8330049247803877315
+      spriteID: c180481fcf11abdc0800000000000000
+      internalID: -3622563172184750052
       vertices: []
       indices: 
       edges: []

@@ -14,14 +14,8 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        
-        //if (col.gameObject.Equals(Level.Player))
-        //{
-        //    Debug.Log("HIT HIM");
-        //    //send him back
-        //    Level.Player.transform.Translate(new Vector3(Level.checkpoint.x, Level.checkpoint.y, 0) - Level.Player.transform.position);
-        //}
-        Destroy(gameObject, 4);
+        //TODO effect
+        Destroy(gameObject, 2);
     }
 
 }
