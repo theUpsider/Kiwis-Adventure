@@ -68,7 +68,7 @@ public class SoundManager : MonoBehaviour
                 audioSrc.PlayOneShot(jumpSound);
                 break;
             case Sounds.walk:
-                audioSrc.PlayOneShot(walkSounds[UnityEngine.Random.Range(0,walkSounds.Count)]);
+                //audioSrc.PlayOneShot(walkSounds[UnityEngine.Random.Range(0,walkSounds.Count)]);
                 break;
             case Sounds.sneak:
                 audioSrc.PlayOneShot(sneakSound);
