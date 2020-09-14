@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        SoundManager.PlaySound(Sounds.landing);
     }
 
     public void OnCrouching(bool IsCrouching)
@@ -34,10 +35,15 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         verticalMove = Input.GetAxisRaw("Vertical") * 10; //slow for ladders
+        if ((horizontalMove != 0 || verticalMove != 0 ) && !SoundManager.isPlaying() && !animator.GetBool("IsJumping"))
+        {
+            SoundManager.PlaySound(Sounds.walk);
+
+        }
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump"))
-        {
+        {            
             jump = true;
             animator.SetBool("IsJumping", true);
         }
@@ -45,14 +51,17 @@ public class PlayerMovement : MonoBehaviour
         //Interact with dialogue
         if (Input.GetButtonUp("Enter"))
         {
+
             Debug.Log("Enter");
-            
+            SoundManager.PlaySound(Sounds.enter);
+
             Level.Notify("Enter"); //Notify subsribers for interaction input
         }
 
         //Interact with dialogue
         if (Input.GetButtonUp("Fire1"))
         {
+            //SoundManager.PlaySound(Sounds.click);
             Level.Notify("Fire1");
         }
 

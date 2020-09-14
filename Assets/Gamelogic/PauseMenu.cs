@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    private enum selected { Resume, MainMenu, Quit };
+    private enum selected { Resume, Save, MainMenu, Quit };
     public GameObject ResumeImage;
     public GameObject MainMenuImage;
     public GameObject QuitImage;
+    public GameObject SaveImage;
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
@@ -18,6 +19,10 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         UpdateButton();
+        if(SceneManager.GetActiveScene().buildIndex !=1)
+        Cursor.visible = false;
+        else
+            Cursor.visible = true;
     }
     // Update is called once per frame
     void Update()
@@ -53,6 +58,9 @@ public class PauseMenu : MonoBehaviour
                 case selected.MainMenu:
                     MainMenu();
                     break;
+                case selected.Save:
+                    Save();
+                    break;
                 case selected.Resume:
                     Resume();
                     break;
@@ -66,24 +74,33 @@ public class PauseMenu : MonoBehaviour
 
     private void UpdateButton()
     {
-        switch (Selected)
-        {
-            case selected.MainMenu:
-                MainMenuImage.SetActive(true);
-                ResumeImage.SetActive(false);
-                QuitImage.SetActive(false);
-                break;
-            case selected.Resume:
-                MainMenuImage.SetActive(false);
-                ResumeImage.SetActive(true);
-                QuitImage.SetActive(false);
-                break;
-            case selected.Quit:
-                MainMenuImage.SetActive(false);
-                ResumeImage.SetActive(false);
-                QuitImage.SetActive(true);
-                break;
-        }
+        //switch (Selected)
+        //{
+        //    case selected.MainMenu:
+        //        MainMenuImage.SetActive(true);
+        //        ResumeImage.SetActive(false);
+        //        QuitImage.SetActive(false);
+        //        SaveImage.SetActive(false);
+        //        break;
+        //    case selected.Resume:
+        //        MainMenuImage.SetActive(false);
+        //        ResumeImage.SetActive(true);
+        //        QuitImage.SetActive(false);
+        //        SaveImage.SetActive(false);
+        //        break;
+        //    case selected.Save:
+        //        MainMenuImage.SetActive(false);
+        //        ResumeImage.SetActive(false);
+        //        QuitImage.SetActive(false);
+        //        SaveImage.SetActive(true);
+        //        break;
+        //    case selected.Quit:
+        //        MainMenuImage.SetActive(false);
+        //        ResumeImage.SetActive(false);
+        //        QuitImage.SetActive(true);
+        //        SaveImage.SetActive(false);
+        //        break;
+        //}
     }
 
     public void Resume()
@@ -91,22 +108,32 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.visible = false;
+        SoundManager.PlaySound(Sounds.click);
     }
     public void Pause()
     {
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        Cursor.visible = true;
+    }
+    public void Save()
+    {
+        SaveSystem.SaveGameData(new GameData(Level.Player));
+        SoundManager.PlaySound(Sounds.click);
     }
     public void MainMenu()
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
         SceneManager.LoadScene(0);
+        SoundManager.PlaySound(Sounds.click);
 
     }
     public void Quit()
     {
+        SoundManager.PlaySound(Sounds.click);
         Application.Quit();
     }
 

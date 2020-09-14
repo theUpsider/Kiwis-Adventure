@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,13 +7,13 @@ public class Level : MonoBehaviour
 {
 
     public static Vector2 checkpoint;
-    public static GameObject Player;
+    public static Player Player;
     public static List<IManager> playerInteractionSubscriber = new List<IManager>();
 
     public static void Notify(string message)
     {
         foreach (var sub in playerInteractionSubscriber)
-            sub.handlePlayerInput(Player, message);
+            sub.HandlePlayerInput(Player, message);
     }
 
     public static void subsribe(IManager sub)
@@ -28,7 +29,7 @@ public class Level : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+       Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame

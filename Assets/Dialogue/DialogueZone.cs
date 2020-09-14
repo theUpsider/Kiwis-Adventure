@@ -9,10 +9,10 @@ public class DialogueZone : MonoBehaviour, IManager
 {
     public DialogueBubble dialoguebubble;
 
-    public void handlePlayerInput(GameObject Player, string message)
+    public void HandlePlayerInput(Player Player, string message)
     {
         if (message == "Enter")
-        {
+        {            
         Debug.Log("Display next sentance handled.");
         FindObjectOfType<DialogManager>().DisplayNextSentence();
         }

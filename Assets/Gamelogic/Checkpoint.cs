@@ -26,7 +26,7 @@ public class Checkpoint : MonoBehaviour
             if (!Level.checkpoint.Equals(this.transform.position))
                 Level.checkpoint =this.transform.position;
             collider.enabled = false;
-
+            SoundManager.PlaySound(Sounds.checkpoint);
         }
     }
 }

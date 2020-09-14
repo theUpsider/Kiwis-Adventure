@@ -41,6 +41,7 @@ public class DialogManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+        SoundManager.PlaySound(Sounds.text);
         Debug.Log(sentence);
     }
 
