@@ -12,6 +12,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
+	[SerializeField] private Collider2D m_JumpDisableCollider;					// A collider that will be disabled when jumping to avoid edge stuck
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
@@ -20,6 +21,11 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+
+
+	float GroundedRememberTime = 0.25f;
+	[SerializeField] float CutJumpHeight = 0.5f;
+	private float GroundedRemember = 0;
 
 	[Header("Events")]
 	[Space]
@@ -56,6 +62,9 @@ public class CharacterController2D : MonoBehaviour
 		{
 			if (colliders[i].gameObject != gameObject)
 			{
+				// Disable one of the colliders when jumping
+				if (m_JumpDisableCollider != null)
+					m_JumpDisableCollider.enabled = true;
 				m_Grounded = true;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
@@ -137,15 +146,26 @@ public class CharacterController2D : MonoBehaviour
 				Flip();
 			}
 		}
+		// For smoothing and remember that he pressed jump just recently
+		GroundedRemember -= Time.deltaTime;
+
+		if (m_Grounded)
+			GroundedRemember = GroundedRememberTime;
 		// If the player should jump...
-		if (m_Grounded && jump)
-		{
+
+		if(jump && m_Grounded)
+        {
+			GroundedRemember = 0;
+			// Disable one of the colliders when jumping
+			if (m_JumpDisableCollider != null)
+				m_JumpDisableCollider.enabled = false;
 			// Add a vertical force to the player.
 			m_Grounded = false;
-			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+
 			if(!m_Ladder)
 				SoundManager.PlaySound(Sounds.jump);
-		}
+        }
 
         if (m_Ladder)
         {

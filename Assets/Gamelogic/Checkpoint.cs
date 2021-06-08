@@ -5,7 +5,6 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     public new BoxCollider2D collider;
-    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +19,7 @@ public class Checkpoint : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.Equals(player))
+        if (col.gameObject.Equals(Level.Player.gameObject))
         {
             Debug.Log("worked checkpoint");
             if (!Level.checkpoint.Equals(this.transform.position))

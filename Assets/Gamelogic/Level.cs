@@ -9,6 +9,7 @@ public class Level : MonoBehaviour
     public static Vector2 checkpoint;
     public static Player Player;
     public static List<IManager> playerInteractionSubscriber = new List<IManager>();
+    public static GameObject Camera;
 
     public static void Notify(string message)
     {
@@ -30,11 +31,8 @@ public class Level : MonoBehaviour
     void Start()
     {
        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+       Camera = GameObject.FindGameObjectWithTag("MainCamera");
+       //Set Cursor to not be visible
+       Cursor.visible = false;
     }
 }

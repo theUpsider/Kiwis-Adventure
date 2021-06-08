@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     public bool crouch;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", true);
         }
+        
 
         //Interact with dialogue
         if (Input.GetButtonUp("Enter"))
